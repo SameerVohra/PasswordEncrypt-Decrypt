@@ -1,12 +1,36 @@
 {
   "name": "password-encrypt-decrypt",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A simple Node.js module for encrypting and decrypting passwords using a secret key and salt. This module uses XOR operations and Base64 encoding to secure your passwords.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "password",
+    "encryption",
+    "decryption",
+    "secure-password",
+    "XOR",
+    "base64",
+    "crypto",
+    "password-encrypt",
+    "password-decrypt",
+    "nodejs",
+    "security"
+  ],
+  "author": "Sameer Vohra",
+  "license": "ISC",
+  "dependencies": {
+    "password-encrypt-decrypt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SameerVohra/PasswordEncrypt-Decrypt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SameerVohra/PasswordEncrypt-Decrypt/issues"
+  },
+  "homepage": "https://github.com/SameerVohra/PasswordEncrypt-Decrypt#readme"
 }
