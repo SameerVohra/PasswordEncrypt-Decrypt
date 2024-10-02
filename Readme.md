@@ -1,4 +1,4 @@
-```markdown
+
 # Password Encrypt/Decrypt
 
 A simple Node.js module for encrypting and decrypting passwords using a secret key and salt. This module uses XOR operations and Base64 encoding to ensure the security of your passwords.
