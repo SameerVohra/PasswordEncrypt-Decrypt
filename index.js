@@ -1,6 +1,6 @@
 function encryptPass(pass, secret_key, salt) {
-  if(salt>9){
-    throw new Error("Salt should be less than 10")
+  if (salt > 9) {
+    throw new Error("Salt should be less than 10");
   }
   let newPass = "";
 
@@ -25,10 +25,9 @@ function encryptPass(pass, secret_key, salt) {
   newPass += salt.toString();
 
   const base64Encoded = Buffer.from(newPass).toString('base64');
-  
+
   return base64Encoded;
 }
-
 
 function decryptPass(encryptedPass, secret_key) {
   const decoded = Buffer.from(encryptedPass, 'base64').toString();
@@ -58,4 +57,3 @@ function decryptPass(encryptedPass, secret_key) {
 }
 
 module.exports = { encryptPass, decryptPass };
-
